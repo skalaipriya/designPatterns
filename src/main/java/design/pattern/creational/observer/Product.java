@@ -31,14 +31,14 @@ public class Product implements Subject{
     }
     @Override
     public void register(Observer observer) {
-        System.out.println("Observer registered : " + observer+ "for the product: "+ name);
+        System.out.println("Observer registered : " + observer+ " for the product: "+ name);
         //productOserverList.add(observer);
         productOserverList.get().add(observer);
     }
 
     @Override
     public void unregister(Observer observer) {
-        System.out.println("Observer unregistered : " + observer + "for the product: "+ name);
+        System.out.println("Observer unregistered : " + observer + " for the product: "+ name);
         //productOserverList.remove(observer);
         productOserverList.get().remove(observer);
     }
