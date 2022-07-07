@@ -1,4 +1,4 @@
-package design.pattern.creational.observer;
+package design.pattern.behavioral.observer;
 
 public class ClientTestObserverpattern {
     public static void main(String[] args) {
